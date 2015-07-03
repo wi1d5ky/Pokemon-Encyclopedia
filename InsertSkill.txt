@@ -1,0 +1,513 @@
+INSERT INTO Skill
+VALUES (1,'撞擊','普',35,35,0.95,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (2,'鳴叫','普',40,null,1,'令對象攻擊下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (3,'寄生樹種子','草',10,null,0.9,'每回合吸取對象最大HP的1/8',0);
+
+INSERT INTO Skill
+VALUES (4,'籐鞭','草',10,35,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (5,'毒之粉末','毒',35,null,0.75,'令對象中毒',0);
+
+INSERT INTO Skill
+VALUES (6,'催眠粉末','草',15,null,0.75,'令對象睡眠',0);
+
+INSERT INTO Skill
+VALUES (7,'葉子飛刀','草',25,55,0.95,'容易擊中對象要害',0);
+
+INSERT INTO Skill
+VALUES (8,'香氣','普',20,null,1,'令對象迴避下降一個等級／[冒險]吸引野生精靈',0);
+
+INSERT INTO Skill
+VALUES (9,'成長','普',40,null,null,'自己特攻提升一個等級',0);
+
+INSERT INTO Skill
+VALUES (10,'光合作用','草',5,null,null,'自己回復最大HP的1/2',0);
+
+INSERT INTO Skill
+VALUES (11,'陽光烈焰','草',10,120,1,'一回合準備，次回合攻擊',0);
+
+INSERT INTO Skill
+VALUES (12,'搔','普',35,40,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (13,'火苗','火',25,40,1,'10%令對象燃燒',0);
+
+INSERT INTO Skill
+VALUES (14,'煙幕','普',20,null,1,'令對象命中下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (15,'憤怒','普',20,20,1,'如果受到攻擊，連續使用威力倍增',0);
+
+INSERT INTO Skill
+VALUES (16,'怒目而視','普',10,null,0.9,'令對象速度下降兩個等級',0);
+
+INSERT INTO Skill
+VALUES (17,'火焰噴射','火',15,95,1,'10%令對象燃燒',0);
+
+INSERT INTO Skill
+VALUES (18,'揮砍','普',20,70,1,'容易擊中對象要害',0);
+
+INSERT INTO Skill
+VALUES (19,'龍之怒','龍',10,null,1,'給予對象40點的傷害',0);
+
+INSERT INTO Skill
+VALUES (20,'火焰漩渦','火',15,15,70,'3~6回合令對象減最大HP的1/16，期間對象不能逃走',0);
+
+INSERT INTO Skill
+VALUES (21,'雙翼拍擊','飛',35,60,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (22,'揮舞尾巴','普',30,null,1,'令對象防禦下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (23,'泡沫','水',30,20,1,'10%令對象速度下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (24,'縮頭','水',40,null,null,'自己防禦提升一個等級',0);
+
+INSERT INTO Skill
+VALUES (25,'噴水','水',25,40,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (26,'咬噬','惡',25,60,1,'30%令對象膽怯',0);
+
+INSERT INTO Skill
+VALUES (27,'高速旋轉','普',40,20,1,'解除自己受到的綑縛狀態',0);
+
+INSERT INTO Skill
+VALUES (28,'保護','普',10,null,null,'可抵擋任何攻擊，但連續使用成功率會下降',3);
+
+INSERT INTO Skill
+VALUES (29,'祈雨','水',5,null,null,'5回合內下雨，其間水系招式威力*1.5、火系招式威力*0.5',0);
+
+INSERT INTO Skill
+VALUES (30,'火箭頭槌','普',15,100,1,'自己防禦提升一個等級；一回合準備，次回合攻擊',0);
+
+INSERT INTO Skill
+VALUES (31,'水柱巨砲','水',5,120,0.8,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (32,'吐絲','蟲',40,null,0.95,'令對象速度下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (33,'僵硬','普',30,null,null,'自己防禦提升一個等級',0);
+
+INSERT INTO Skill
+VALUES (34,'念力','超',25,50,1,'10%令對象混亂',0);
+
+INSERT INTO Skill
+VALUES (35,'麻痺粉末','草',30,null,0.75,'令對象麻痺',0);
+
+INSERT INTO Skill
+VALUES (36,'超音波','普',20,null,0.55,'令對象混亂',0);
+
+INSERT INTO Skill
+VALUES (37,'旋風','普',20,null,1,'強制結束與野生精靈的戰鬥',-6);
+
+INSERT INTO Skill
+VALUES (38,'翻風','飛',35,40,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (39,'幻象光線','超',20,65,1,'10%令對象混亂',0);
+
+INSERT INTO Skill
+VALUES (40,'神秘護符','普',25,null,null,'5回合內不會因別人而得到異常狀態',0);
+
+INSERT INTO Skill
+VALUES (41,'銀色之風','蟲',5,60,1,'10%令自己所有能力提升一個等級',0);
+
+INSERT INTO Skill
+VALUES (42,'毒針','毒',35,15,1,'30%令對象中毒',0);
+
+INSERT INTO Skill
+VALUES (43,'亂針','普',20,15,0.85,'一回合作出2~5次攻擊',0);
+
+INSERT INTO Skill
+VALUES (44,'集中力量','普',30,null,null,'使用後攻擊容易擊中對象要害；重複使用無效果',0);
+
+INSERT INTO Skill
+VALUES (45,'雙針','蟲',20,25,1,'連續2次攻擊；20%令對象中毒',0);
+
+INSERT INTO Skill
+VALUES (46,'追擊','惡',20,40,1,'如果對象交替精靈，在交替前攻擊，給予準備換走精靈2倍傷害',0);
+
+INSERT INTO Skill
+VALUES (47,'飛彈針','蟲',20,14,85,'一回合作出2~5次攻擊',0);
+
+INSERT INTO Skill
+VALUES (48,'高速移動','超',30,null,null,'自己速度提升兩個等級',0);
+
+INSERT INTO Skill
+VALUES (49,'魯莽','普',5,null,1,'對象餘下HP高於自己時，令對象餘下HP等於自己餘下HP的數值',0);
+
+INSERT INTO Skill
+VALUES (50,'風沙撥擊','地',15,null,1,'令對象命中下降一個等f級',0);
+
+INSERT INTO Skill
+VALUES (51,'電光石火','普',30,40,1,'先制攻擊',1);
+
+INSERT INTO Skill
+VALUES (52,'雙翼拍擊','飛',35,60,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (53,'羽毛舞','飛',15,null,1,'令對象攻擊下降兩個等級',0);
+
+INSERT INTO Skill
+VALUES (54,'鸚鵡學舌','飛',20,null,null,'使用最後受到攻擊的招式',0);
+
+INSERT INTO Skill
+VALUES (55,'必殺門牙','普',15,80,0.9,'10%令對象膽怯',0);
+
+INSERT INTO Skill
+VALUES (56,'憤怒門牙','普',10,null,0.9,'對象現時HP/2',0);
+
+INSERT INTO Skill
+VALUES (57,'啄','飛',35,35,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (58,'瞪眼','普',30,null,1,'令對象防禦下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (59,'飛燕疾擊','飛',20,60,null,'一定能擊中對象(對象躲藏不計)',0);
+
+INSERT INTO Skill
+VALUES (60,'鑽啄','飛',20,80,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (61,'捲起','普',20,15,0.85,'3~6回合令對象減最大HP的1/16，期間對象不能逃走',0);
+
+INSERT INTO Skill
+VALUES (62,'大蛇瞪眼','普',30,null,0.75,'令對象麻痺',0);
+
+INSERT INTO Skill
+VALUES (63,'噪音','普',40,null,0.85,'令對象防禦下降兩個等級',0);
+
+INSERT INTO Skill
+VALUES (64,'溶解毒液','毒',30,40,1,'10%令對象防禦下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (65,'吸氣','普',10,null,null,'儲氣，最多儲三次',0);
+
+INSERT INTO Skill
+VALUES (66,'狼吞虎嚥','普',10,null,null,'視吸氣次數回復自己HP',0);
+
+INSERT INTO Skill
+VALUES (67,'嘔吐','普',10,100,1,'傷害*吸氣次數',0);
+
+INSERT INTO Skill
+VALUES (68,'黑霧','冰',30,null,null,'雙方取消所有能力等級',0);
+
+INSERT INTO Skill
+VALUES (69,'電擊','雷',30,40,1,'10%令對象麻痺',0);
+
+INSERT INTO Skill
+VALUES (70,'電磁波','雷',20,null,1,'令對象麻痺',0);
+
+INSERT INTO Skill
+VALUES (71,'影子分身','普',15,null,null,'自己迴避提升一個等級',0);
+
+INSERT INTO Skill
+VALUES (72,'叩擊','普',20,85,0.75,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (73,'十萬伏特','雷',15,95,1,'10%令對象麻痺',0);
+
+INSERT INTO Skill
+VALUES (74,'轟天雷','雷',10,120,0.7,'30%令對象麻痺',0);
+
+INSERT INTO Skill
+VALUES (75,'光牆','超',30,null,null,'5回合內我方受到特殊攻擊時傷害*1/2',0);
+
+INSERT INTO Skill
+VALUES (76,'變圓','普',40,null,null,'自己防禦提升一個等級',0);
+
+INSERT INTO Skill
+VALUES (77,'超速星','普',20,60,null,'一定能擊中對象(對象躲藏不計)',0);
+
+INSERT INTO Skill
+VALUES (78,'亂搔','普',15,18,0.8,'一回合作出2~5次攻擊',0);
+
+INSERT INTO Skill
+VALUES (79,'風沙漩渦','地',15,15,0.7,'3~6回合令對象減最大HP的1/16，期間對象不能逃走',0);
+
+INSERT INTO Skill
+VALUES (80,'暴風沙','岩',10,null,null,'5回合內風沙，雙方精靈每回合減去最大HP的1/16',0);
+
+INSERT INTO Skill
+VALUES (81,'連環踢','格',30,30,1,'一回合內作出2次攻擊',1);
+
+INSERT INTO Skill
+VALUES (82,'幫助','普',20,null,1,'2v2對戰，令隊友這回合的攻擊傷害*1.5',5);
+
+INSERT INTO Skill
+VALUES (83,'煽動','惡',15,null,1,'令對象特攻提升一個等級，但會混亂',0);
+
+INSERT INTO Skill
+VALUES (84,'狂咬','惡',15,80,1,'20%令對象特防下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (85,'千斤鼎','普',15,85,1,'30%令對象麻痺',0);
+
+INSERT INTO Skill
+VALUES (86,'角擊','普',25,65,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (87,'獨角鑽','普',5,null,0.3,'對象即進入瀕死狀態(對象Lv比自己高則無效)',0);
+
+INSERT INTO Skill
+VALUES (88,'橫衝直撞','普',20,90,1,'2~3回合連續攻擊，之後自己會混亂(攻擊失誤不計)',0);
+
+INSERT INTO Skill
+VALUES (89,'拍打','普',35,40,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (90,'安歌','普',5,null,1,'令對象此回合及其後2~6回合內，重複使用最後使出的招式',0);
+
+INSERT INTO Skill
+VALUES (91,'唱歌','普',15,null,0.55,'令對象睡眠',0);
+
+INSERT INTO Skill
+VALUES (92,'連環掌擊','普',10,15,0.85,'一回合內2~5次連續攻擊',0);
+
+INSERT INTO Skill
+VALUES (93,'變小','普',20,null,null,'我方迴避提升一個等級',0);
+
+INSERT INTO Skill
+VALUES (94,'揮指','普',10,null,null,'隨機使出任何一招',0);
+
+INSERT INTO Skill
+VALUES (95,'月光','普',5,null,null,'回復HP最大值的50%',0);
+
+INSERT INTO Skill
+VALUES (96,'神魂光束','鬼',10,null,1,'令對手混亂',0);
+
+INSERT INTO Skill
+VALUES (97,'吠叫','普',20,null,1,'強制對手交換精靈',-6);
+
+INSERT INTO Skill
+VALUES (98,'精神控制','普',20,null,0.55,'令對手剛使出的招式在數回合裏不能使用',0);
+
+INSERT INTO Skill
+VALUES (99,'睡眠','超',10,null,null,'HP完全回復，但之後兩回合會進入睡眠狀態',0);
+
+INSERT INTO Skill
+VALUES (100,'捨身撞擊','普',15,120,1,'給予對手的傷害，自己亦承受25%',0);
+
+INSERT INTO Skill
+VALUES (101,'吸血','蟲',15,20,1,'給予對手損傷的一半，會回復我方HP',0);
+
+INSERT INTO Skill
+VALUES (102,'吸取','草',20,20,1,'給予對手損傷的一半，會回復我方HP',0);
+
+INSERT INTO Skill
+VALUES (103,'花瓣舞','草',20,70,1,'2~3回合連續攻擊，之後會混亂',0);
+
+INSERT INTO Skill
+VALUES (104,'蘑菇孢子','草',15,null,1,'令對手睡眠',0);
+
+INSERT INTO Skill
+VALUES (105,'識破','普',40,null,1,'對鬼系使用後，普通或格鬥招式能擊中鬼系',0);
+
+INSERT INTO Skill
+VALUES (106,'精神念力','超',10,90,1,'10%令對手特防下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (107,'挖洞','地',10,60,1,'一回合挖洞，次回合攻擊',0);
+
+INSERT INTO Skill
+VALUES (108,'地震','地',10,100,1,'一般攻擊；對挖洞中的對手加倍傷害',0);
+
+INSERT INTO Skill
+VALUES (109,'招財','普',20,40,1,'戰鬥完結後，可得到Levelx攻擊次數x2的金錢',0);
+
+INSERT INTO Skill
+VALUES (110,'手刀','格',25,50,1,'容易擊中對手要害',0);
+
+INSERT INTO Skill
+VALUES (111,'投擲地球','格',20,null,1,'給予對手等於我方Level的數值的傷害',0);
+
+INSERT INTO Skill
+VALUES (112,'突進','普',20,90,0.85,'給予對手的傷害，自己亦承受25%',0);
+
+INSERT INTO Skill
+VALUES (113,'催眠術','超',20,null,0.6,'令對手睡眠',0);
+
+INSERT INTO Skill
+VALUES (114,'過度遺忘','超',20,null,null,'我方特防提升兩個等級',0);
+
+INSERT INTO Skill
+VALUES (115,'瞬間轉移','超',20,null,null,'野生戰鬥中逃走',0);
+
+INSERT INTO Skill
+VALUES (116,'自我再生','普',20,null,null,'回復HP最大值的50%',0);
+
+INSERT INTO Skill
+VALUES (117,'反射抵擋','超',20,null,null,'5回合內(交替效果持續)，受到對手物理攻擊時傷害*1/2',0);
+
+INSERT INTO Skill
+VALUES (118,'下旋','格',20,50,0.9,'30%令對手膽怯',0);
+
+INSERT INTO Skill
+VALUES (119,'地獄式滾動','格',25,80,0.8,'給予對手的傷害，自己亦承受25%',0);
+
+INSERT INTO Skill
+VALUES (120,'障礙','超',30,null,null,'我方防禦提升兩個等級',0);
+
+INSERT INTO Skill
+VALUES (121,'纏繞','普',32,10,1,'10%令對手速度下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (122,'落石','岩',15,50,0.9,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (123,'自爆','普',5,200,1,'使用此技能後，我方即進入瀕死狀態',0);
+
+INSERT INTO Skill
+VALUES (124,'大爆發','普',5,250,1,'使用此技能後，我方即進入瀕死狀態',0);
+
+INSERT INTO Skill
+VALUES (125,'踐踏','普',20,65,1,'30%令對手膽怯',0);
+
+INSERT INTO Skill
+VALUES (126,'音波爆擊','普',20,null,0.9,'給予對手20點的傷害',0);
+
+INSERT INTO Skill
+VALUES (127,'劍舞','普',30,null,null,'我方攻擊提升兩個等級',0);
+
+INSERT INTO Skill
+VALUES (128,'三角攻擊','普',10,80,100,'20%令對手麻痺、燃燒或結冰',0);
+
+INSERT INTO Skill
+VALUES (129,'天極光束','冰',20,65,1,'10%令對手攻擊下降一個等級',0);
+
+INSERT INTO Skill
+VALUES (130,'冷凍光束','冰',10,95,1,'10%令對手結冰',0);
+
+INSERT INTO Skill
+VALUES (131,'毒瓦斯','毒',40,null,0.55,'令對手中毒',0);
+
+INSERT INTO Skill
+VALUES (132,'污泥攻擊','毒',20,65,1,'30%令對手中毒',0);
+
+INSERT INTO Skill
+VALUES (133,'溶化','毒',40,null,null,'我方防禦提升兩個等級',0);
+
+INSERT INTO Skill
+VALUES (134,'貝殼夾擊','水',10,34,0.75,'2~5回合令對手減1/16HP，期間對手不能逃走',0);
+
+INSERT INTO Skill
+VALUES (135,'尖刺大炮','普',15,20,1,'一回合內作出2~5次攻擊',0);
+
+INSERT INTO Skill
+VALUES (136,'舔','鬼',30,20,1,'30%令對手麻痺',0);
+
+INSERT INTO Skill
+VALUES (137,'黑夜施咒','鬼',15,null,1,'給予對手等於我方Level的數值的傷害',0);
+
+INSERT INTO Skill
+VALUES (138,'食夢','超',15,100,1,'給與對手損傷的一半，會回復我方HP，但對手必須在睡眠狀態',0);
+
+INSERT INTO Skill
+VALUES (139,'捆綁','普',20,15,75,'2~5回合連續對對手造成傷害，期間對手不能逃走',0);
+
+INSERT INTO Skill
+VALUES (140,'瑜珈姿勢','超',40,null,null,'我方攻擊提升一個等級',0);
+
+INSERT INTO Skill
+VALUES (141,'夾擊','普',30,55,1,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (142,'必殺巨鉗','普',5,null,0.3,'對手即進入瀕死狀態(對手Lv比我方高則無效)',0);
+
+INSERT INTO Skill
+VALUES (143,'螃蟹巨鉗','水',10,90,0.85,'容易擊中對手要害',0);
+
+INSERT INTO Skill
+VALUES (144,'投擲炸彈','普',20,15,0.85,'一回合內作出2~5次攻擊',0);
+
+INSERT INTO Skill
+VALUES (145,'骨頭棒','地',20,65,0.85,'10%令對手膽怯',0);
+
+INSERT INTO Skill
+VALUES (146,'骨頭回力鏢','地',10,50,0.9,'一回合內作出2次攻擊',0);
+
+INSERT INTO Skill
+VALUES (147,'旋風踢腿','格',15,60,0.85,'30%令對手膽怯',0);
+
+INSERT INTO Skill
+VALUES (148,'飛踢','格',25,70,0.95,'攻擊失誤的話自己要受1/8的傷害',0);
+
+INSERT INTO Skill
+VALUES (149,'飛膝踢','格',20,85,0.9,'攻擊失誤的話自己要受1/8的傷害',0);
+
+INSERT INTO Skill
+VALUES (150,'超級踢腿','普',5,120,0.75,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (151,'連續拳擊','普',15,18,0.85,'一回合作出2~5次攻擊',0);
+
+INSERT INTO Skill
+VALUES (152,'火之拳','火',15,75,1,'10%令對手燃燒',0);
+
+INSERT INTO Skill
+VALUES (153,'冷凍拳','冰',15,75,1,'10%令對手結冰',0);
+
+INSERT INTO Skill
+VALUES (154,'雷拳','雷',15,75,1,'10%令對手麻痺',0);
+
+INSERT INTO Skill
+VALUES (155,'超級拳擊','普',20,80,0.85,'一般攻擊',0);
+
+INSERT INTO Skill
+VALUES (156,'反擊','格',20,null,1,'後制，將對手的物理攻擊雙倍奉還',-6);
+
+INSERT INTO Skill
+VALUES (157,'毒霧','毒',20,20,0.7,'50%令對手中毒',0);
+
+INSERT INTO Skill
+VALUES (158,'啄啄拳','普',10,70,1,'20%令對手混亂',0);
+
+INSERT INTO Skill
+VALUES (159,'逆流而上','水',15,80,1,'一般攻擊／攀越瀑布',0);
+
+INSERT INTO Skill
+VALUES (160,'替身','普',10,null,null,'使用25%HP來製作分身，分身會替我方抵受攻擊',0);
+
+INSERT INTO Skill
+VALUES (161,'惡魔之吻','普',15,null,0.75,'令對手睡眠',0);
+
+INSERT INTO Skill
+VALUES (162,'暴風雪','冰',5,120,0.7,'10%令對手結冰',0);
+
+INSERT INTO Skill
+VALUES (163,'鯉魚翻身','普',40,null,null,'沒有效果',0);
+
+INSERT INTO Skill
+VALUES (164,'拚死抵抗','普',15,null,1,'餘下HP越少，對對手的傷害越大',0);
+
+INSERT INTO Skill
+VALUES (165,'破壞光束','普',5,150,0.9,'一回合攻擊，次回合不能行動',0);
+
+INSERT INTO Skill
+VALUES (166,'白霧','冰',30,null,null,'5回合內(交替效果持續)，不會受能力下降的技能影響',0);
+
+INSERT INTO Skill
+VALUES (167,'變身','普',10,null,null,'變成與對手一樣的精靈',0);
+
+INSERT INTO Skill
+VALUES (168,'變質','普',30,null,null,'將自己屬性變為自己其中一個招式的屬性',0);
+
+INSERT INTO Skill
+VALUES (169,'起角','普',30,null,null,'我方攻擊提升一個等級',0);
+
+INSERT INTO Skill
+VALUES (170,'聖鳥一擊','飛',5,140,0.9,'一回合準備，次回合攻擊；30%令對手膽怯',0);
+
+INSERT INTO Skill
+VALUES (171,'頭槌','普',15,70,1,'30%令對手膽怯',0);
+
